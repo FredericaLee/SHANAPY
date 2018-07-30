@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>web02</display-name>
+  <welcome-file-list>
+    <welcome-file>wel.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>loginn</servlet-name>
+    <servlet-class>login.loginn</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginn</servlet-name>
+    <url-pattern>/loginn</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>adlogin</servlet-name>
+    <servlet-class>login.adlogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>adlogin</servlet-name>
+    <url-pattern>/adlogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>sqlact</servlet-name>
+    <servlet-class>DB.sqlact</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>sqlact</servlet-name>
+    <url-pattern>/sqlact</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>reg</servlet-name>
+    <servlet-class>login.reg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>reg</servlet-name>
+    <url-pattern>/reg</url-pattern>
+  </servlet-mapping>
+  
+  
+ <servlet>
+    <servlet-name>modify</servlet-name>
+    <servlet-class>login.modify</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>modify</servlet-name>
+    <url-pattern>/modify</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>icreate</servlet-name>
+    <servlet-class>Indent.icreate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>icreate</servlet-name>
+    <url-pattern>/icreate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>  
+        <servlet-name>test</servlet-name>  
+        <servlet-class>ajax.test</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>test</servlet-name>  
+        <url-pattern>/ajax/test</url-pattern>  
+    </servlet-mapping> 
+    <servlet-mapping>  
+        <servlet-name>test</servlet-name>  
+        <url-pattern>/test</url-pattern>  
+    </servlet-mapping>
+    
+     <servlet>  
+        <servlet-name>test1</servlet-name>  
+        <servlet-class>ajax.test1</servlet-class>  
+    </servlet> 
+     
+    <servlet-mapping>  
+        <servlet-name>test1</servlet-name>  
+        <url-pattern>/ajax/test1</url-pattern>  
+    </servlet-mapping> 
+    <servlet-mapping>  
+        <servlet-name>test1</servlet-name>  
+        <url-pattern>/test1</url-pattern>  
+    </servlet-mapping>
+    
+     <servlet>  
+        <servlet-name>sale_num</servlet-name>  
+        <servlet-class>ajax.sale_num</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>sale_num</servlet-name>  
+        <url-pattern>/ajax/sale_num</url-pattern>  
+    </servlet-mapping> 
+    <servlet-mapping>  
+        <servlet-name>sale_num</servlet-name>  
+        <url-pattern>/sale_num</url-pattern>  
+    </servlet-mapping>
+     <servlet>  
+        <servlet-name>sale_sum</servlet-name>  
+        <servlet-class>ajax.sale_sum</servlet-class>  
+    </servlet>  
+    
+    <servlet-mapping>  
+        <servlet-name>sale_sum</servlet-name>  
+        <url-pattern>/ajax/sale_sum</url-pattern>  
+    </servlet-mapping> 
+    
+    <servlet-mapping>  
+        <servlet-name>sale_sum</servlet-name>  
+        <url-pattern>/sale_sum</url-pattern>  
+    </servlet-mapping>
+        
+    
+    <servlet>  
+        <servlet-name>ipay</servlet-name>  
+        <servlet-class>Indent.ipay</servlet-class>  
+    </servlet>  
+    
+    <servlet-mapping>  
+        <servlet-name>ipay</servlet-name>  
+        <url-pattern>/ipay</url-pattern>  
+    </servlet-mapping> 
+    
+    
+      <servlet>  
+        <servlet-name>hbrepay</servlet-name>  
+        <servlet-class>Infor.hbrepay</servlet-class>  
+    </servlet>  
+    
+    <servlet-mapping>  
+        <servlet-name>hbrepay</servlet-name>  
+        <url-pattern>/hbrepay</url-pattern>  
+    </servlet-mapping> 
+    
+    
+     <servlet>
+    <description></description>
+    <display-name>buy_in</display-name>
+    <servlet-name>buy_in</servlet-name>
+    <servlet-class>buy_in</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>buy_in</servlet-name>
+    <url-pattern>/buy_in</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <description></description>
+    <display-name>sale_in</display-name>
+    <servlet-name>sale_in</servlet-name>
+    <servlet-class>sale_in</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>sale_in</servlet-name>
+    <url-pattern>/sale_in</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
